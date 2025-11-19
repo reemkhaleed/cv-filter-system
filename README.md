@@ -1,2 +1,21 @@
-# cv-filter-system
-Automated CV filtering system written in Python.   The script extracts text from PDF, DOCX, and TXT files, checks for predefined keywords, and automatically sorts CVs into "match" and "do_not_match" folders.
+# CV Filter System (Keyword-Based)
+
+This Python script automatically filters CV files based on keywords. It extracts text from PDFs, DOCX documents, and TXT files, checks for target keywords, and then sorts the CVs into two folders:
+
+- `match/` → CV contains at least one keyword  
+- `do_not_match/` → CV does not contain any keywords  
+
+It also supports importing a LinkedIn applicant ZIP file automatically.
+
+---
+
+## 🔍 Features
+- Reads **PDF**, **DOCX**, and **TXT** CVs.
+- Automatically extracts text.
+- Keyword-based filtering (Python, Excel, Machine Learning, etc.).
+- Creates output folders automatically.
+- Supports LinkedIn applicant export ZIP files.
+- Clean and fast filtering — works with large batches of CVs.
+
+---
+pip install -r requirements.txt
