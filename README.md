@@ -17,5 +17,27 @@ It also supports importing a LinkedIn applicant ZIP file automatically.
 - Supports LinkedIn applicant export ZIP files.
 - Clean and fast filtering — works with large batches of CVs.
 
----
+## Install dependencies:
+  ```bash
 pip install -r requirements.txt
+ ```
+---
+
+## How To Use :
+1.Place your LinkedIn exported ZIP file as:
+```bash
+linkedin_applicants.zip
+ ```
+
+2.Run the script:
+```bash
+python Cv_filter.py
+ ```
+
+3.Results:
+
+- Matched CVs → match/
+
+- Not matched → do_not_match/
+
+- Extracted files → cvs/
