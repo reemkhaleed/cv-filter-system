@@ -23,7 +23,7 @@ pip install -r requirements.txt
  ```
 ---
 
-## How To Use :
+## ▶️ How To Use :
 1.Place your LinkedIn exported ZIP file as:
 ```bash
 linkedin_applicants.zip
@@ -41,3 +41,10 @@ python Cv_filter.py
 - Not matched → do_not_match/
 
 - Extracted files → cvs/
+
+## 🛠 Customize Keywords: 
+Edit in Cv_filter.py/
+Add or remove keywords as needed.
+```bash
+KEYWORDS = ["python", "excel", "data analysis"]
+ ```
